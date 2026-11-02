@@ -1,0 +1,15 @@
+react-native-community/datetimepicker
+npx expo install @react-native-community/datetimepicker
+expo-document-picker
+npx expo install react-dom react-native-web
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native
+npm install @react-navigation/drawer react-native-gesture-handler react-native-reanimated
+npm install @react-navigation/native-stack @react-navigation/drawer
+npx expo install react-native-gesture-handler react-native-reanimated
+npm install zustand
+npm install axios
+npm install react-native-keyboard-aware-scroll-view
+npx expo install expo-navigation-bar
+
+npm install @react-native-async-storage/async-storage

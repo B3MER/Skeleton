@@ -1,0 +1,54 @@
+# === Seguridad y Variables de Entorno ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# === Bases de Datos ===
+# Archivos de base de datos local (SQLite, etc.)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Dumps de SQL (copias de seguridad)
+*.sql
+*.dump
+*.sql.gz
+
+# Carpetas de datos (si usas Docker)
+/Vault/
+/data/
+/db_data/
+/postgres-data/
+/mysql-data/
+
+# === Archivos de Sistema y Logs ===
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.temp
+*.tmp
+*.pyc
+__pycache__/
+
+# === Dependencias y Compilación ===
+node_modules/
+dist/
+build/
+bin/
+obj/
+
+# === Media y contenido ===
+/backend/media_files/
+
+# === Personales ===
+modificaciones_personales.txt
+pruebas/
+.stfolder
